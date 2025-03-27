@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
         // Create cards
         shuffledIcons.forEach(icon => {
             const card = document.createElement('div');
-            card.classList.add('card');
+            card.classList.add('card');0
             card.dataset.icon = icon;
             card.addEventListener('click', handleCardClick);
             gameBoard.appendChild(card);
